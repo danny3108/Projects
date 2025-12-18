@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class='To-Do-List'>
+        <br>
+        <h2>Simple To-Do List</h2>
+        <div class="Addtask">
+            <input type="text" id="taskInput" placeholder="Add Task here">
+            <button onclick="add_task()">Add</button>
+        </div>
+        <button id="reset" onclick="reset()">Reset</button>
+        <ul id="task-list">
+        </ul>
+        <br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
