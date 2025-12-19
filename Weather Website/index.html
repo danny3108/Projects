@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weatherApp">
+            <br>
+            
+            <h2>Weather</h2>
+            <div class="locationInput">
+                <input type="text" id="location_input" placeholder="Type city here">
+                <button onclick="weather()">Sent</button>
+            </div>
+            
+            <div class="weather">
+                <h2 class="city">City</h2>
+                <h3 class="description">weather description</h3>
+                <img src="./img/cloudy.png" class="icon">
+                <h3 class="temp">Temperature</h3>
+                <br>
+                <p class="extra">
+                    <span class="wind">Wind</span> 
+                    <span class="humidity">Humidity</span>
+                </p>
+            
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
