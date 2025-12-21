@@ -1,4 +1,5 @@
-const apiKey = "2ffc346a8f397332dc24506df532c754";
+// put APIKey here
+const apiKey = "";
 const cityInput = document.getElementById("location_input");
 
 async function weather() {
@@ -53,4 +54,5 @@ cityInput.addEventListener("keydown", function(e) {
     if (e.key === "Enter") {
         weather();
     }
+
 });
