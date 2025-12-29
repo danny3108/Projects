@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    color: white;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background:black;
+    padding: 10px
+}
+
+.head {
+    color: greenyellow;
+    text-align: center ;
+    font-size: 40px;
+}
+
+.App {
+    display: grid;
+    grid-template-rows: 65px 65px 65px 65px 65px;
+    justify-content: center;
+}
+
+.App input {
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.enter {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.enter:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.correct {
+    background-color: green;
+}
+
+.present {
+    background-color: yellow;
+}
+
+.none {
+    background-color: gray;
+}
